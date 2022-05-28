@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<tittle>
+
+</tittle>
+<body style="background-color: rgb(183, 178, 178);" >
+      <a href="Home.html">Home</a>
+  <style media="screen">
+    .pad{
+      padding-top: 3%;
+
+    }
+  </style>
+
+  <nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+      <a class="navbar-brand" href="#">Sell car</a>
+  </div>
+  </nav>
+<div class="container">
+  <div class="pad">
+
+  <div class="jumbotron">
+    <p>
+    <b><font color="Blue"><Font size="4">INCLUDE SOME DETAILS</font></font></b>
+    <p>Brand</p>
+
+    <form id="myForm">
+
+
+     <select name="dropdown">
+    <option value=“audi" selected>audi</option>
+     <option value=“BMW">BMW</option>
+     <option value=“Bugatti">Bugatti</option>
+     <option value=“Alfa Romeo">Alfa Romeo</option>
+     <option value=“chevrolet">chevrolet</option>
+     <option value=“Ferrari">Ferrari</option>
+     <option value=“Ford">Ford</option>
+     <option value=“Honda">Honda</option>
+     <option value=“Hundai">Hyundai</option>
+     <option value=“Jaguar">Jaguar</option>
+     <option value=“Jeep">Jeep</option>
+     <option value=“kia">kia</option>
+     <option value=“Lamborghini">Lamborghini</option>
+     <option value=“Land Rover">Land Rover</option>
+     <option value=“Lexus">Lexus</option>
+     <option value=“Mazda">Mazda</option>
+     <option value=“Mercedes-Benz">Mercedes-Benz</option>
+     <option value=“Mini">Mini</option>
+     <option value=“Renault">Renault</option>
+     <option value=“Rolls Royce">Rolls Royce</option>
+     <option value=“Suzuki">Suzuki</option>
+     <option value=“Tata Motors">Tata Motors</option>
+     <option value=“Tesla">Tesla</option>
+     <option value=“Toyota">Toyata</option>
+     <option value=“Volkswagen">Volkswagen</option>
+     <option value=“Volvo">volvo</option>
+     <option value=“Infiniti">Infiniti</option>
+     <option value=“Maserati">Maserati</option>
+     <option value=“General Motors">General Motors</option>
+     <option value=“Other">Other</option>
+     </select><br><br>
+
+
+    <p><b>Year</b><br><input type="text" name="Year" /> <br></p>
+    <p><b>Fuel</b></p>
+
+
+      <input type="radio" name="fuel" value="CNG"> CNG and Hybrids<br>
+      <input type="radio" name="fuel" value="Diesel"> Diesel<br>
+      <input type="radio" name="fuel" value="LPG"> LPG<br>
+      <input type="radio" name="fuel" value="Petrol"> Petrol <br>
+    <br>
+
+
+    <p><b>KM Driven</b><br><input type="text" name="KM Driven" /><br><br>
+    <p><b>Ad title</b><br><input type="text" name="Ad title" /><br>
+    Mention the key features of your item(e.g. brand,model,age,type)
+    <br>
+    <br>
+    <br>
+
+    <p><b>Description</b><br><input type="text" name="Description" /><br>
+    Include conditions,features and reason for selling<br><br>
+
+
+    <p><b>SET A PRICE</b><br><br><input type="text" name="SET A PRICE" />
+
+
+    <p><b>UPLOAD PHOTOS</b><p>
+    <input type="file" name="fileupload" accept="image/*" ><br><br>
+    <input type="file" name="fileupload" accept="image/*" ><br><br>
+    <input type="file" name="fileupload" accept="image/*" ><br><br>
+    <input type="file" name="fileupload" accept="image/*" ><br><br>
+    <input type="file" name="fileupload" accept="image/*" ><br><br>
+
+
+    <p><b>INPUT YOUR ADDRESS</b><br><input type="text" name="INPUT YOUR ADDRESS"><br><br>
+
+    <p><b>Your Name</b><br><input type="text" name="Your Name" required>
+    <br><br>
+    <p><b>Mobile No.</b><br><input type="text" name="mobile No." required>
+    <p><b>E-mail</b><br><input type="text" name="E-Mail" required
+      ./>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+      <button onclick="bcd()" class="btn btn-warning" type="submit" name="button">Reset</button>
+    <button onclick="abc()" class="btn btn-primary" type="submit" name="button">Submit</button>
+     </form>
+
+  </div>
+  </div>
+</div>
+
+
+
+</body>
+  <script type="text/javascript">
+    function abc(){
+      alert("Submitted!");
+    }
+    function bcd(){
+      document.getElementById("myForm").reset();
+    }
+  </script>
+</head>
+</html>

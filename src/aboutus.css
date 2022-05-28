@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head-page {
+  width: 100%;
+  height: 100px;
+  background-color: snow;
+}
+div h2 {
+  line-height: 100px;
+  text-align: center;
+  color: red;
+  font-family: "Montserrat", sans-serif;
+}
+
+.website {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  background-color: lightseagreen;
+  display: flex;
+}
+.aboutcars {
+  line-height: 100px;
+  padding-left: 20px;
+  color: #95a5a6;
+}
+.website div {
+  width: 800px;
+  padding-left: 335px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.website div h3 {
+  padding-left: 20px;
+}
+.website div img {
+  height: 200px;
+  width: 400px;
+  padding: 20px 0px;
+  border-radius: 50px;
+}
+.main {
+  width: 100%;
+  height: 500px;
+  background-color: #dadfe1;
+}
+.team1 {
+  display: flex;
+  text-align: center;
+}
+.team1 div {
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  padding: 40px 20px;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+.links {
+  height: 100px;
+  line-height: 100px;
+  padding: 20px 580px;
+  background-color: gray;
+  display: flex;
+}
+.links div {
+  padding-left: 20px;
+}
+.links div img {
+  height: 50px;
+  width: 50px;
+}
+.footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}

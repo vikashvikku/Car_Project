@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.head-page{
+  font-size: 25px;
+  letter-spacing: 2px;
+    height: 100px;
+    background-color: sandybrown;
+    line-height: 100px;
+    padding-left: 400px;
+}
+.head-page h2:hover{
+  text-transform: uppercase;
+  transition: 0.4s;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.container{
+  margin-top: 10px;
+  height: 600px;
+  display: flex;
+  background-color:gray;
+}
+.container div{
+  height: 500px;
+  width: 300px;
+  padding:70px 20px;
+}
+.car1{
+  text-align: center;
+  padding-top: 50px;
+
+}
+.car1 img {
+  height: 200px;
+  width: 300px;
+}
+.car1 img:hover{
+  transition: 0.3s;
+  padding-top: 20px;
+  width: 305px;
+  height: 205px;
+}
+.car-links{
+  /* border: 2px solid #2e3131; */
+  color: #1f3a93;
+  line-height: 40px;
+}
+.car-links:hover{
+  transition: 0.5s;
+  font-size: 30px;
+}
