@@ -48,11 +48,13 @@ div h2 {
   height: 500px;
   background-color: #dadfe1;
 }
-.team1 {
+
+.team {
   display: flex;
   text-align: center;
+  align-items: center;
 }
-.team1 div {
+.team div {
   text-align: center;
   height: 400px;
   width: 400px;
